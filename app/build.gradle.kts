@@ -91,7 +91,7 @@ chaquopy {
             // and fail the build.
             options("--no-deps")
 
-            install("UnityPy==1.25.4")
+            install("UnityPy==1.10.18")
             install("Pillow")      // Android wheel from Chaquopy's repository
             install("lz4")         // Android wheel from Chaquopy's repository
             install("brotli")      // Android wheel from Chaquopy's repository
